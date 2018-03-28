@@ -1,0 +1,19 @@
+.RepoCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.RepoCard .RepoCard-name {
+    font-weight: bold;
+}
+
+.RepoCard .RepoCard-description {
+    color: gray;
+    font-size: smaller;
+}
+
+.RepoCard .RepoCard-stars {
+    margin-left: 15px;
+}
